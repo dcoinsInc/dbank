@@ -1,0 +1,42 @@
+#reg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+body{
+    background-color: rgb(217, 233, 255);
+}
+
+input{
+    border: 3px solid;
+    border-radius: 5px;
+    border-color: rgb(0, 88, 202);
+    background-color: transparent;
+}
+
+p{
+    color: rgb(0, 88, 202);
+    text-align: center;
+}
+
+#regbtn{
+    border: 3px solid;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(0, 88, 202);
+    border-color: rgb(0, 88, 202);
+    border-radius: 5px;
+    cursor: pointer;
+}
